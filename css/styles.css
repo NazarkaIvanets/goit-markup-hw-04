@@ -481,6 +481,13 @@ footer {
   color: rgba(255, 255, 255, 0.6);
 }
 
+.footer-paragraph-style {
+  color: var(--white-color);
+  font-weight: 700px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
 .item-contact:not(:last-child) {
   display: block;
   margin-bottom: 9px;

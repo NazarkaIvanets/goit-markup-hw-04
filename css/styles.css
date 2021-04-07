@@ -216,7 +216,7 @@ address {
 }
 
 .button {
-  font-weight: 700;
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.87;
   text-align: center;
@@ -259,6 +259,7 @@ address {
   display: flex;
   margin-left: auto;
   align-items: center;
+  font-weight: 500;
 }
 
 .icon-link {
@@ -300,6 +301,7 @@ header {
   padding: 10px 32px;
   background-color: var(--link-color);
   color: var(--white-color);
+  font-weight: 700;
 }
 
 .buttons-portfolio {
@@ -345,7 +347,7 @@ header {
 }
 
 .team-section .team-icon-link {
-  fill: var(--main-text-color);
+  fill: var(--clients-border-color);
 }
 
 .team-icon {
@@ -393,6 +395,7 @@ header {
 
 .item-block {
   padding: 30px 32px;
+  background-color: var(--white-color);
 }
 
 .clients-section {
@@ -420,7 +423,7 @@ header {
 }
 
 .clients-icon-link .icon {
-  fill: currentColor;
+  fill: var(--clients-border-color);
 }
 
 .clients-icon-link .icon-logo1 {
@@ -483,7 +486,7 @@ footer {
 
 .footer-paragraph-style {
   color: var(--white-color);
-  font-weight: 700px;
+  font-weight: 700;
   text-transform: uppercase;
   margin-bottom: 20px;
 }
@@ -530,8 +533,11 @@ footer .team-icon-link .icon {
 }
 
 .footer-grid-item {
-  margin-right: 30px;
   align-self: baseline;
+}
+
+.footer-block-social {
+  margin-left: 70px;
 }
 
 .footer-grid {

@@ -423,7 +423,7 @@ header {
 }
 
 .clients-icon-link .icon {
-  fill: var(--clients-border-color);
+  fill: currentColor;
 }
 
 .clients-icon-link .icon-logo1 {
